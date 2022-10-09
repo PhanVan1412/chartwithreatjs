@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import ChartExample from './components/LineChart';
+import AreaChartEx from './components/AreaChart';
+import BarChartEx from './components/BarChart';
+import PieChartEx from './components/PieChart';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <h1> LineChart</h1>
+    <ChartExample />
+    <h1> AreaChart</h1>
+    <AreaChartEx />
+    <h1>BarChart</h1>
+    <BarChartEx />
+    <h1>PieChart</h1>
+    <PieChartEx />
   </React.StrictMode>
 );
 
